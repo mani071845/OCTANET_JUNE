@@ -1,0 +1,208 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color: white;
+}
+img{
+    width:100%;
+}
+body{
+    background-color: #212121;
+}
+@media(min-width:350px){
+header{
+    display: flex;
+    height:10vh;
+    justify-content: center;
+    background: white;
+    align-items: center;
+    margin-bottom:1rem;
+}
+header h2{
+    font-size:2rem;
+    color:black;
+}
+header img{
+    width:60px;
+    height: 60px;
+    margin:1rem;
+}
+.part1 h3,h4{
+text-align:center;
+padding:1rem;
+}
+.part1 img{
+   padding-top:2rem;
+   height:100%;
+}
+.forem{
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin:2rem;
+    margin-top:0;
+    border:1px solid black;
+    background-color: white;
+}
+.forem div,input{
+    align-items: center;
+    margin:1rem;
+    color:black;
+}
+.forem input[type="text"]{
+    border:none;
+    border-bottom:1px solid black;
+    outline: none;
+}
+.forem input[type="submit"]{
+    background-color:#212121;
+    color:white;
+    font-size:larger;
+    padding:0.8rem;
+    
+}
+.two h3{
+    text-align:center;
+    font-size:2rem;
+}
+.two .images{
+    display:grid;
+    grid-template-columns:repeat(2,0.5fr);
+    margin-top:2rem;
+
+}
+.two .images img{
+    height:150px; 
+    background-color: white;
+    border-radius:12px;
+    padding:1.5rem;
+    margin:1.1rem;
+}
+.three{
+    background-color: white;
+    padding:1rem;
+    
+}
+.three h3{
+    text-align:center;
+    padding-top:2rem;
+    font-size: 1.5rem;
+    color:black;
+}
+.four{
+    background-color: black;
+    padding-top:0.5rem;
+    margin-top:2rem;
+}
+.four h3{
+    text-align:center;
+    padding-top:2rem;
+    font-size: 1.5rem;
+    color:white;
+}
+}
+@media(min-width:1024px){
+    header{
+        display: flex;
+        height:10vh;
+        justify-content: center;
+        background: white;
+        align-items: center;
+        margin-bottom:1rem;
+    }
+    header h2{
+        font-size:3rem;
+        color:black;
+              }
+        header img{
+            width:90px;
+            height: 65px;
+            margin:1rem;
+        }
+        .part1 h3,h4{
+            display: none;
+            padding:1rem;
+            }
+            .part1 img{
+                padding-top: 2rem;
+                padding-left: 15rem;
+                padding-right: 15rem;
+                height:100%;
+                width: 100%;
+             }
+             .forem{
+                display:flex;
+                flex-direction: column; 
+                justify-content: center;
+                align-items: center;
+                margin:2rem;
+                margin-top:0;
+                border:1px solid black;
+                background-color: white;
+            }
+            .forem div,input{
+                align-items: center;
+                margin:1rem;
+                color:black;
+            }
+            .forem input[type="text"]{
+                border:none;
+                border-bottom:1px solid black;
+                outline: none;
+                font-size: 2.5rem;
+            }
+            .forem input[type="submit"]{
+                background-color:#212121;
+                color:white;
+                font-size:larger;
+                padding:0.8rem;
+            }
+            .two h3{
+                text-align: center;
+                font-size:larger;
+            }
+            .two .images{
+                display:grid;
+                grid-template-columns: repeat(2,1fr);
+               
+            }
+            .two .images img{
+                height:150px;
+                width:400px; 
+                background-color: white;
+                border-radius:12px;
+                margin:2rem;
+                padding:1rem;
+                
+            }
+            .three{
+                background-color: white;
+                margin-top:2.5rem;
+            }
+            .three h3{
+                text-align:center;
+                padding-top:2rem;
+                font-size: 2.5rem;
+                color:black;
+            }
+            .three img{
+                height:500px;
+            }
+            .four{
+                background-color: black;
+                padding-top:0.5rem;
+                margin-top:2rem;
+            }
+            .four h3{
+                text-align:center;
+                padding-top:2rem;
+                font-size: 1.5rem;
+                color:white;
+            }
+            .four img{
+                height:500px;
+            }
+
+}
